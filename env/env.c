@@ -121,7 +121,7 @@ static void env_set_inited(enum env_location location)
  *
  * All implementations are free to use the operation, the priority and
  * any other data relevant to their choice, but must take into account
- * the fact that the lowest prority (0) is the most important location
+ * the fact that the lowest priority (0) is the most important location
  * in the system. The following locations should be returned by order
  * of descending priorities, from the highest to the lowest priority.
  *
@@ -147,7 +147,7 @@ __weak enum env_location arch_env_get_location(enum env_operation op, int prio)
  *
  * All implementations are free to use the operation, the priority and
  * any other data relevant to their choice, but must take into account
- * the fact that the lowest prority (0) is the most important location
+ * the fact that the lowest priority (0) is the most important location
  * in the system. The following locations should be returned by order
  * of descending priorities, from the highest to the lowest priority.
  *
